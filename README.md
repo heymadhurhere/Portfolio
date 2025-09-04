@@ -32,3 +32,4 @@ To run this project locally, follow these steps:
 3.  Run the development server with `npm run dev`.
 
 The project will be available at `http://localhost:5173`.# portfolio_new
+# portfolio_new
