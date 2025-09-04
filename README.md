@@ -31,4 +31,4 @@ To run this project locally, follow these steps:
 2.  Install the dependencies using `npm install` or `pnpm install`.
 3.  Run the development server with `npm run dev`.
 
-The project will be available at `http://localhost:5173`.
+The project will be available at `http://localhost:5173`.# portfolio_new
