@@ -11,7 +11,7 @@ const LeetcodeStats = () => {
     useEffect(() => {
         const fetchLeetCodeStats = async () => {
             try {
-                const res = await fetch("https://leetcode-api-faisalshohag.vercel.app/just_madhur");
+                const res = await fetch("https://leetcode-api-faisalshohag.vercel.app/sitara_sitara");
                 const data = await res.json();
                 setEasy(data.easySolved);
                 setMedium(data.mediumSolved);

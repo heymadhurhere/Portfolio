@@ -24,7 +24,7 @@ function Project({ title }) {
             <div className={overlayStyles}>
                 <p className="text-2xl font-playfair">{title}</p>
             </div>
-            <img src={`/assets/${projectTitle}.png`} alt={projectTitle} />
+            <img src={`/assets/${projectTitle}.jpg`} alt={projectTitle} />
         </motion.div>
     )
 }
@@ -54,7 +54,7 @@ function Projects() {
                 </div>
 
                 <p className="mt-10 mb-10">
-                    I’ve built several web development projects using technologies like JavaScript, React, Tailwind CSS, Git, GitHub, and MySQL. These projects reflect my focus on responsive design, clean UI, and efficient functionality. Each one showcases my ability to turn ideas into real, user-friendly applications while continually learning and improving my skills.
+                    I've built several web development projects using technologies like JavaScript, React, Tailwind CSS, Git, GitHub, and MySQL. These projects reflect my focus on responsive design, clean UI, and efficient functionality. Each one showcases my ability to turn ideas into real, user-friendly applications while continually learning and improving my skills.
                 </p>
             </motion.div>
             {/* PROJECTS */}
@@ -69,14 +69,15 @@ function Projects() {
                 >
                     {/* ROW 1 */}
 
-                    <a href="https://github.com/heymadhurhere/Tin-Dog-Project"><Project title="Tin Dog Project" /></a>
-                    <a href="https://github.com/heymadhurhere/Keeper-App"><Project title="Keeper App" /></a>
+                    <a href="https://github.com/AnKiT-GaRG2/Risk-Management-System"><Project title="Return risk analyzer" /></a>
+                    <a href="https://github.com/shrishtimishra3304/WanderLust"><Project title="Wanderlust" /></a>
 
-                    <Project title="portfolio" />
-                    <Project title="Simon Game" />
-                    <a href="https://github.com/heymadhurhere/Drum-Kit"><Project title="Drum Kit" /></a>
+                    <a href="https://github.com/shrishtimishra3304/game2"><Project title="Dino Game" /></a>
+                    <a href="https://github.com/shrishtimishra3304/e-commerce"><Project title="E Commerce" /></a>
 
-                    <a href="https://github.com/heymadhurhere/Weather-App"><Project title="Weather App" /></a>
+                    <a href="https://github.com/shrishtimishra3304/game2"><Project title="Simon Says" /></a>
+
+                    <a href="https://github.com/shrishtimishra3304/APNA-COLEGE-HTML/tree/main/spotifyclone"><Project title="Music website" /></a>
 
 
                 </motion.div>

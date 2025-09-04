@@ -7,26 +7,26 @@ function Education() {
         {
             heading: "B.Tech",
             schoolName: "Birla Institute of Technology, Mesra",
-            marks: 85,
+            marks: 85.8,
             passingYear: 2027,
             degree: "Bachelor of Technology",
             board: "Computer Science and Engineering",
         },
         {
             heading: "Higher Secondary",
-            schoolName: "Hellens School, Sitamarhi",
+            schoolName: "MK DAV Public School, Medininagar",
             marks: 94.6,
-            passingYear: 2023,
+            passingYear: 2022,
             degree: "Class 12",
             board: "CBSE",
         },
         {
             heading: "Secondary",
-            schoolName: "Ramakrishna Mission Vidyapith, Purulia",
+            schoolName: "MK DAV Public School, Medininagar",
             marks: 96.4,
-            passingYear: 2021,
+            passingYear: 2020,
             degree: "(Class 10)",
-            board: "WBBSE",
+            board: "CBSE",
         }
     ];
 

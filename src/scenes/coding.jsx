@@ -13,7 +13,7 @@ function Coding() {
     useEffect(() => {
         const fetchLeetCodeStats = async () => {
             try {
-                const res = await fetch("https://codeforces.com/api/user.info?handles=madhur_anand");
+                const res = await fetch("https://codeforces.com/api/user.info?handles=shrishti3304");
                 const data = await res.json();
                 setmaxRating(data.result[0].maxRating);
             } catch (err) {
@@ -29,7 +29,7 @@ function Coding() {
     useEffect(() => {
     const fetchSubmissions = async () => {
       try {
-        const res = await fetch("https://codeforces.com/api/user.status?handle=madhur_anand");
+        const res = await fetch("https://codeforces.com/api/user.status?handle=shrishti3304");
         const data = await res.json();
 
         if (data.status === "OK") {
@@ -67,7 +67,7 @@ function Coding() {
                 </p>
                 <LineGradeint width="mx-auto w-2/4" />
                 <p className="mt-10">
-                    I'm actively involved in competitive programming and have solved over <span className="text-red underline underline-offset-2 text-2xl"><a href="https://codolio.com/profile/madhur_anand">900</a></span> DSA problems across various platforms. With a max Codeforces rating of {maxRating}, I consistently practice and improve my problem-solving skills. C++ is my preferred language, and I enjoy tackling challenging algorithms and optimizing solutions through efficient code.
+                    I'm actively involved in competitive programming and have solved over <span className="text-red underline underline-offset-2 text-2xl"><a href="https://codolio.com/profile/SCBpUKTC">400</a></span> DSA problems across various platforms. With a max Codeforces rating of {maxRating}, I consistently practice and improve my problem-solving skills. C++ is my preferred language, and I enjoy tackling challenging algorithms and optimizing solutions through efficient code.
                 </p>
             </motion.div>
             {/* PROFILES */}
@@ -84,7 +84,7 @@ function Coding() {
                 <div className='max-w-4xl mx-auto mt-10'>
                     <div className='grid md:grid-cols-1 gap-10 '>
                         <a
-                            href="https://leetcode.com/u/just_madhur/"
+                            href="https://leetcode.com/u/sitara_sitara/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="hover:scale-105 hover:border-red duration-500 border-solid border-4 border-yellow rounded-lg hover:shadow-lg hover:shadow-yellow bg-slate-700"
@@ -94,7 +94,7 @@ function Coding() {
                             <LeetcodeStats />
                         </a>
                         <a
-                            href="https://codeforces.com/profile/madhur_anand"
+                            href="https://codeforces.com/profile/shrishti3304"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="hover:scale-105 hover:border-red duration-500 border-solid border-4 border-blue rounded-lg hover:shadow-lg hover:shadow-blue bg-slate-700"

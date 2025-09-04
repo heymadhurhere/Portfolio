@@ -8,7 +8,7 @@ function SocialMediaIcons() {
         <div className="flex justify-center md:justify-start my-10 gap-7">
             <a
             className="hover:opacity-50 transitio duration-500"
-            href="https://www.linkedin.com/in/madhur-anand5414"
+            href="https://www.linkedin.com/in/shrishti-mishra-05454b31a"
             target="_blank"
             rel="noreferrer"
             >
@@ -16,23 +16,16 @@ function SocialMediaIcons() {
             </a>
             <a
             className="hover:opacity-50 transitio duration-500"
-            href="https://www.instagram.com/mad_hood.5414/"
+            href="https://www.instagram.com/shrishti__3304/"
             target="_blank"
             rel="noreferrer"
             >
                 <FaInstagram size={30} />
             </a>
+            
             <a
             className="hover:opacity-50 transitio duration-500"
-            href="https://x.com/theMadhur_Anand"
-            target="_blank"
-            rel="noreferrer"
-            >
-                <BsTwitterX size={30} />
-            </a>
-            <a
-            className="hover:opacity-50 transitio duration-500"
-            href="https://github.com/heymadhurhere"
+            href="https://github.com/shrishtimishra3304"
             target="_blank"
             rel="noreferrer"
             >

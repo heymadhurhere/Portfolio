@@ -38,15 +38,15 @@ function Landing({ setSelectedPage }) {
                     }}
                 >
                     <p className="text-6xl font-playfair z-10 text-center md:text-start">
-                        Madhur {" "}
+                        Shrishti {" "}
                         <span
                             className="text-yellow underline"
                         >
-                            Anand
+                            Mishra
                         </span>
                     </p>
                     <p className="mt-10 mb-7 text-xl text-center md:text-start">
-                        <p>Hi, I'm <span className="text-red underline underline-offset-4 font-semibold text-2xl"><a href="www.linkedin.com/in/madhur-anand5414">Madhur</a></span> — a web developer passionate about front-end design, competitive programming, and solving real-world problems through clean, efficient code. I work with technologies like JavaScript, React, Tailwind CSS, Git, GitHub, and MySQL, and actively practice DSA and competitive programming.</p>
+                        <p>Hi, I'm <span className="text-red underline underline-offset-4 font-semibold text-2xl"><a href="www.linkedin.com/in/shrishti-mishra-05454b31a">Shrishti</a></span> — a web developer passionate about front-end design, competitive programming, and solving real-world problems through clean, efficient code. I work with technologies like JavaScript, React, Tailwind CSS, Git, GitHub, and MySQL, and actively practice DSA and competitive programming.</p>
                     </p>
                 </motion.div>
                 {/* CALL TO ACTIONS */}
